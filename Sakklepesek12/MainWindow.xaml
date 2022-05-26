@@ -6,9 +6,9 @@
         xmlns:local="clr-namespace:Sakklepesek12"
         xmlns:System="clr-namespace:System;assembly=mscorlib" x:Class="Sakklepesek12.MainWindow"
         mc:Ignorable="d"
-        Title="Sakklépések-Polgár Botond" Height="1345" Width="1678">
-    <Grid Margin="0,-25,0,19">
-        <ComboBox x:Name="figurak" HorizontalAlignment="Left" Margin="535,36,0,0" VerticalAlignment="Top" Width="588" Height="43" IsDropDownOpen="True">
+        Title="Sakklépések-Polgár Botond" Height="1345" Width="1800" Background="#442403">
+    <Grid Margin="55,0,55,74">
+        <ComboBox x:Name="figurak" HorizontalAlignment="Center" Margin="0,27,0,0" VerticalAlignment="Top" Width="588" Height="43" IsDropDownOpen="True">
             <ComboBoxItem Content="Fekete Gyalog"/>
             <ComboBoxItem Content="Fehé Gyalog"/>
             <ComboBoxItem Content="Bástya"/>
@@ -17,6 +17,7 @@
             <ComboBoxItem Content="Király"/>
 
         </ComboBox>
+
         <Grid Margin="0,157,0,-17">
             <Grid.RowDefinitions>
                 <RowDefinition/>
@@ -112,5 +113,12 @@
             <Grid Grid.Row="7" Grid.Column="7" Background="Gray"></Grid>
 
         </Grid>
+        <Label Content=" A" Background="white"  HorizontalAlignment="Left" Margin="76,102,0,0" VerticalAlignment="Top" Width="49" FontSize="30" FontWeight="Bold"/>
+        
+        <Label Content=" B" Background="white" HorizontalAlignment="Left" Margin="285,100,0,0" VerticalAlignment="Top" Width="49" FontSize="30" FontWeight="Bold"/>
+
+        <Label Content=" C" Background="white" HorizontalAlignment="Left" Margin="500,100,0,0" VerticalAlignment="Top" Width="49" FontSize="30" FontWeight="Bold"/>
+
+        <Label Content=" D" Background="white" HorizontalAlignment="Left" Margin="710,100,0,0" VerticalAlignment="Top" Width="49" FontSize="30" FontWeight="Bold"/>
     </Grid>
 </Window>
