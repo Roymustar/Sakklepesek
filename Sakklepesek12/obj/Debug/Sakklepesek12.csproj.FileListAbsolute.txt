@@ -1,0 +1,16 @@
+C:\Users\polga\source\repos\Roymustar\Sakklepesek\Sakklepesek12\bin\Debug\Sakklepesek12.exe.config
+C:\Users\polga\source\repos\Roymustar\Sakklepesek\Sakklepesek12\bin\Debug\Sakklepesek12.exe
+C:\Users\polga\source\repos\Roymustar\Sakklepesek\Sakklepesek12\bin\Debug\Sakklepesek12.pdb
+C:\Users\polga\source\repos\Roymustar\Sakklepesek\Sakklepesek12\obj\Debug\Sakklepesek12.csproj.AssemblyReference.cache
+C:\Users\polga\source\repos\Roymustar\Sakklepesek\Sakklepesek12\obj\Debug\Sakklepesek12.csproj.SuggestedBindingRedirects.cache
+C:\Users\polga\source\repos\Roymustar\Sakklepesek\Sakklepesek12\obj\Debug\MainWindow.g.cs
+C:\Users\polga\source\repos\Roymustar\Sakklepesek\Sakklepesek12\obj\Debug\App.g.cs
+C:\Users\polga\source\repos\Roymustar\Sakklepesek\Sakklepesek12\obj\Debug\Sakklepesek12_MarkupCompile.cache
+C:\Users\polga\source\repos\Roymustar\Sakklepesek\Sakklepesek12\obj\Debug\Sakklepesek12_MarkupCompile.lref
+C:\Users\polga\source\repos\Roymustar\Sakklepesek\Sakklepesek12\obj\Debug\MainWindow.baml
+C:\Users\polga\source\repos\Roymustar\Sakklepesek\Sakklepesek12\obj\Debug\Sakklepesek12.g.resources
+C:\Users\polga\source\repos\Roymustar\Sakklepesek\Sakklepesek12\obj\Debug\Sakklepesek12.Properties.Resources.resources
+C:\Users\polga\source\repos\Roymustar\Sakklepesek\Sakklepesek12\obj\Debug\Sakklepesek12.csproj.GenerateResource.cache
+C:\Users\polga\source\repos\Roymustar\Sakklepesek\Sakklepesek12\obj\Debug\Sakklepesek12.csproj.CoreCompileInputs.cache
+C:\Users\polga\source\repos\Roymustar\Sakklepesek\Sakklepesek12\obj\Debug\Sakklepesek12.exe
+C:\Users\polga\source\repos\Roymustar\Sakklepesek\Sakklepesek12\obj\Debug\Sakklepesek12.pdb
