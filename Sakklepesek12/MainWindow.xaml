@@ -9,8 +9,10 @@
         Title="Sakklépések-Polgár Botond" Height="1345" Width="1800" Background="#442403">
     <Grid Margin="55,0,55,74">
         <Grid.RowDefinitions>
-            <RowDefinition Height="363*"/>
-            <RowDefinition Height="892*"/>
+            <RowDefinition Height="229*"/>
+            <RowDefinition Height="134*"/>
+            <RowDefinition Height="156*"/>
+            <RowDefinition Height="736*"/>
         </Grid.RowDefinitions>
         <ComboBox x:Name="figurak" HorizontalAlignment="Center" Margin="0,27,0,0" VerticalAlignment="Top" Width="588" Height="43" IsDropDownOpen="True">
             <ComboBoxItem Content="Fekete Gyalog"/>
@@ -22,7 +24,7 @@
 
         </ComboBox>
 
-        <Grid Margin="0,157,0,-17" Grid.RowSpan="2">
+        <Grid Margin="0,157,0,-17" Grid.RowSpan="4">
             <Grid.RowDefinitions>
                 <RowDefinition/>
                 <RowDefinition/>
@@ -124,12 +126,19 @@
         <Label Content=" C" Background="white" HorizontalAlignment="Left" Margin="500,100,0,0" VerticalAlignment="Top" Width="49" FontSize="30" FontWeight="Bold"/>
 
         <Label Content=" D" Background="white" HorizontalAlignment="Left" Margin="710,100,0,0" VerticalAlignment="Top" Width="49" FontSize="30" FontWeight="Bold"/>
-        <Label Content=" E" Background="white" HorizontalAlignment="Left" Margin="930,100,0,0" VerticalAlignment="Top" Width="49" FontSize="30" FontWeight="Bold" Width="49"/>
+        <Label Content=" E" Background="white" HorizontalAlignment="Left" Margin="930,100,0,0" VerticalAlignment="Top" Width="49" FontSize="30" FontWeight="Bold" />
         <Label Content=" F" Background="white" HorizontalAlignment="Left" Margin="1139,100,0,0" Width="49" VerticalAlignment="Top" FontSize="30" FontWeight="Bold"/>
 
         <Label Content=" G" Background="white" HorizontalAlignment="Left" Margin="1340,100,0,0" Width="49" VerticalAlignment="Top" FontSize="30" FontWeight="Bold"/>
         <Label Content=" H" Background="white" HorizontalAlignment="Left" Margin="1560,100,0,0" Width="49" VerticalAlignment="Top" FontSize="30" FontWeight="Bold"/>
-        <Label Content="8" Background="White" HorizontalAlignment="Left" Margin="1000,150,0,0" VerticalAlignment="Top"/>
-        <Label Content="Label" HorizontalAlignment="Left" Margin="-5,176,0,0" VerticalAlignment="Top"/>
+
+        <Label Content=" 8" Background="white" HorizontalAlignment="Left" Margin="-51,205,0,0" VerticalAlignment="Top" Width="46"  FontSize="30" FontWeight="Bold" Grid.RowSpan="2"/>
+        <Label Content=" 7" Background="white" HorizontalAlignment="Left" Margin="-51,97,0,0" VerticalAlignment="Top" Width="46"  FontSize="30" FontWeight="Bold" Grid.Row="1" Grid.RowSpan="2"/>
+        <Label Content=" 6" Background="white" HorizontalAlignment="Left" Margin="-51,119,0,0" VerticalAlignment="Top" Width="46"  FontSize="30" FontWeight="Bold" Grid.RowSpan="2" Grid.Row="2"/>
+        <Label Content=" 5" Background="white" HorizontalAlignment="Left" Margin="-51,96,0,0" VerticalAlignment="Top" Width="46"  FontSize="30" FontWeight="Bold" Grid.Row="3"/>
+        <Label Content=" 4" Background="white" HorizontalAlignment="Left" Margin="-51,239,0,0" VerticalAlignment="Top" Width="46"  FontSize="30" FontWeight="Bold" Grid.Row="3"/>
+        <Label Content=" 3" Background="white" HorizontalAlignment="Left" Margin="-51,374,0,0" VerticalAlignment="Top" Width="46"  FontSize="30" FontWeight="Bold" Grid.Row="3"/>
+        <Label Content=" 2" Background="white" HorizontalAlignment="Left" Margin="-51,512,0,0" VerticalAlignment="Top" Width="46"  FontSize="30" FontWeight="Bold" Grid.Row="3"/>
+        <Label Content=" 1" Background="white" HorizontalAlignment="Left" Margin="-51,663,0,0" VerticalAlignment="Top" Width="46"  FontSize="30" FontWeight="Bold" Grid.Row="3"/>
     </Grid>
 </Window>
