@@ -12,7 +12,9 @@
             <RowDefinition Height="229*"/>
             <RowDefinition Height="134*"/>
             <RowDefinition Height="156*"/>
-            <RowDefinition Height="736*"/>
+            <RowDefinition Height="662*"/>
+            <RowDefinition Height="66*"/>
+            <RowDefinition Height="8*"/>
         </Grid.RowDefinitions>
         <ComboBox x:Name="figurak" HorizontalAlignment="Center" Margin="0,27,0,0" VerticalAlignment="Top" Width="588" Height="43" IsDropDownOpen="True">
             <ComboBoxItem Content="Fekete Gyalog"/>
@@ -24,7 +26,7 @@
 
         </ComboBox>
 
-        <Grid Margin="0,157,0,-17" Grid.RowSpan="4">
+        <Grid Margin="0,157,0,-17" Grid.RowSpan="6">
             <Grid.RowDefinitions>
                 <RowDefinition/>
                 <RowDefinition/>
@@ -91,7 +93,9 @@
             <Grid Grid.Row="4" Grid.Column="6" Background="Gray"></Grid>
             <Grid Grid.Row="4" Grid.Column="7" Background="Black"></Grid>
 
-            <Grid Grid.Row="5" Grid.Column="0" Background="black"></Grid>
+            <Grid Grid.Row="5" Grid.Column="0" Background="black">
+                <Label Content=" 3" Background="white" HorizontalAlignment="Left" Margin="-53,20,0,0" VerticalAlignment="Top" Width="53"  FontSize="30" FontWeight="Bold"/>
+            </Grid>
             <Grid Grid.Row="5" Grid.Column="1" Background="Gray"></Grid>
             <Grid Grid.Row="5" Grid.Column="2" Background="black"></Grid>
             <Grid Grid.Row="5" Grid.Column="3" Background="Gray"></Grid>
@@ -100,7 +104,9 @@
             <Grid Grid.Row="5" Grid.Column="6" Background="Black"></Grid>
             <Grid Grid.Row="5" Grid.Column="7" Background="Gray"></Grid>
 
-            <Grid Grid.Row="6" Grid.Column="0" Background="Gray"></Grid>
+            <Grid Grid.Row="6" Grid.Column="0" Background="Gray">
+                <Label Content=" 2" Background="white" HorizontalAlignment="Left" Margin="-56,32,0,0" VerticalAlignment="Top" Width="58"  FontSize="30" FontWeight="Bold"/>
+            </Grid>
             <Grid Grid.Row="6" Grid.Column="1" Background="Black"></Grid>
             <Grid Grid.Row="6" Grid.Column="2" Background="Gray"></Grid>
             <Grid Grid.Row="6" Grid.Column="3" Background="Black"></Grid>
@@ -109,7 +115,22 @@
             <Grid Grid.Row="6" Grid.Column="6" Background="Gray"></Grid>
             <Grid Grid.Row="6" Grid.Column="7" Background="Black"></Grid>
 
-            <Grid Grid.Row="7" Grid.Column="0" Background="black"></Grid>
+            <Grid Grid.Row="7" Grid.Column="0" Background="black">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="42*"/>
+                    <RowDefinition Height="97*"/>
+                </Grid.RowDefinitions>
+                <Label Content=" 1" Background="white" HorizontalAlignment="Left" Margin="-50,37,0,0" VerticalAlignment="Top" Width="49"  FontSize="30" FontWeight="Bold" RenderTransformOrigin="0.5,0.5" Grid.RowSpan="2">
+                    <Label.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform AngleX="-1.104"/>
+                            <RotateTransform/>
+                            <TranslateTransform X="-0.481"/>
+                        </TransformGroup>
+                    </Label.RenderTransform>
+                </Label>
+            </Grid>
             <Grid Grid.Row="7" Grid.Column="1" Background="Gray"></Grid>
             <Grid Grid.Row="7" Grid.Column="2" Background="black"></Grid>
             <Grid Grid.Row="7" Grid.Column="3" Background="Gray"></Grid>
@@ -132,13 +153,10 @@
         <Label Content=" G" Background="white" HorizontalAlignment="Left" Margin="1340,100,0,0" Width="49" VerticalAlignment="Top" FontSize="30" FontWeight="Bold"/>
         <Label Content=" H" Background="white" HorizontalAlignment="Left" Margin="1560,100,0,0" Width="49" VerticalAlignment="Top" FontSize="30" FontWeight="Bold"/>
 
-        <Label Content=" 8" Background="white" HorizontalAlignment="Left" Margin="-51,205,0,0" VerticalAlignment="Top" Width="46"  FontSize="30" FontWeight="Bold" Grid.RowSpan="2"/>
-        <Label Content=" 7" Background="white" HorizontalAlignment="Left" Margin="-51,97,0,0" VerticalAlignment="Top" Width="46"  FontSize="30" FontWeight="Bold" Grid.Row="1" Grid.RowSpan="2"/>
-        <Label Content=" 6" Background="white" HorizontalAlignment="Left" Margin="-51,119,0,0" VerticalAlignment="Top" Width="46"  FontSize="30" FontWeight="Bold" Grid.RowSpan="2" Grid.Row="2"/>
-        <Label Content=" 5" Background="white" HorizontalAlignment="Left" Margin="-51,96,0,0" VerticalAlignment="Top" Width="46"  FontSize="30" FontWeight="Bold" Grid.Row="3"/>
-        <Label Content=" 4" Background="white" HorizontalAlignment="Left" Margin="-51,239,0,0" VerticalAlignment="Top" Width="46"  FontSize="30" FontWeight="Bold" Grid.Row="3"/>
-        <Label Content=" 3" Background="white" HorizontalAlignment="Left" Margin="-51,374,0,0" VerticalAlignment="Top" Width="46"  FontSize="30" FontWeight="Bold" Grid.Row="3"/>
-        <Label Content=" 2" Background="white" HorizontalAlignment="Left" Margin="-51,512,0,0" VerticalAlignment="Top" Width="46"  FontSize="30" FontWeight="Bold" Grid.Row="3"/>
-        <Label Content=" 1" Background="white" HorizontalAlignment="Left" Margin="-51,663,0,0" VerticalAlignment="Top" Width="46"  FontSize="30" FontWeight="Bold" Grid.Row="3"/>
+        <Label Content=" 8" Background="white" HorizontalAlignment="Left" Margin="-51,192,0,0" VerticalAlignment="Top" Width="51"  FontSize="30" FontWeight="Bold" Height="49" Grid.RowSpan="2" />
+        <Label Content=" 7" Background="white" HorizontalAlignment="Left" Margin="-51,97,0,0" VerticalAlignment="Top" Width="51"  FontSize="30" FontWeight="Bold" Grid.Row="1" Grid.RowSpan="2" />
+        <Label Content=" 6" Background="white" HorizontalAlignment="Left" Margin="-51,119,0,0" VerticalAlignment="Top" Width="51"  FontSize="30" FontWeight="Bold" Grid.Row="2" Grid.RowSpan="2"/>
+        <Label Content=" 5" Background="white" HorizontalAlignment="Left" Margin="-51,84,0,0" VerticalAlignment="Top" Width="51"  FontSize="30" FontWeight="Bold" Grid.Row="3"/>
+        <Label Content=" 4" Background="white" HorizontalAlignment="Left" Margin="-51,196,0,0" VerticalAlignment="Top" Width="51"  FontSize="30" FontWeight="Bold" Grid.Row="3"/>
     </Grid>
 </Window>
